@@ -69,6 +69,11 @@ minSdk 26 / targetSdk 37.
 CI (GitHub Actions) на каждый push и PR проверяет `gradle-wrapper.jar`, гоняет тесты
 и lint и собирает debug APK. Dependabot раз в месяц предлагает обновления зависимостей.
 
+## Ветки
+
+- `dev` — текущая работа, сюда идут все коммиты и PR Dependabot.
+- `main` — стабильная история: изменения из `dev` попадают сюда через PR со squash merge.
+
 ## Лицензия
 
 [MIT](LICENSE)
